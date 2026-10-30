@@ -1,0 +1,5 @@
+[
+  {"recipe_id": 1, "component_id": 1, "share_percent": "60"},
+  {"recipe_id": 1, "component_id": 2, "share_percent": "25"},
+  {"recipe_id": 1, "component_id": 3, "share_percent": "15"}
+]
