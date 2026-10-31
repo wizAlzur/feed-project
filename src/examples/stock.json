@@ -1,0 +1,16 @@
+{
+  "stock_lots": [
+    {"stock_lot_id": 101, "component_id": 1, "quantity_kg": "700", "admission_status": "admitted"},
+    {"stock_lot_id": 102, "component_id": 1, "quantity_kg": "100", "admission_status": "blocked"},
+    {"stock_lot_id": 201, "component_id": 2, "quantity_kg": "300", "admission_status": "admitted"},
+    {"stock_lot_id": 301, "component_id": 3, "quantity_kg": "150", "admission_status": "admitted"}
+  ],
+  "reservations": [
+    {"reservation_id": 1, "task_id": 10, "created_at": "2026-10-30T10:00:00", "status": "active"},
+    {"reservation_id": 2, "task_id": 11, "created_at": "2026-10-30T11:00:00", "status": "cancelled"}
+  ],
+  "reservation_items": [
+    {"reservation_id": 1, "stock_lot_id": 101, "reserved_quantity_kg": "150"},
+    {"reservation_id": 2, "stock_lot_id": 201, "reserved_quantity_kg": "100"}
+  ]
+}
