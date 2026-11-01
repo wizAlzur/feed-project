@@ -1,0 +1,11 @@
+{
+  "stock_lots": [
+    {"stock_lot_id": 101, "component_id": 1, "quantity_kg": "400", "admission_status": "admitted"},
+    {"stock_lot_id": 102, "component_id": 1, "quantity_kg": "100", "admission_status": "admitted"},
+    {"stock_lot_id": 103, "component_id": 1, "quantity_kg": "100", "admission_status": "blocked"},
+    {"stock_lot_id": 201, "component_id": 2, "quantity_kg": "300", "admission_status": "admitted"},
+    {"stock_lot_id": 301, "component_id": 3, "quantity_kg": "150", "admission_status": "admitted"}
+  ],
+  "reservations": [],
+  "reservation_items": []
+}

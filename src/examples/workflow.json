@@ -1,0 +1,40 @@
+{
+  "products": [
+    {"product_id": 1, "name": "Полнорационный комбикорм для свиней"}
+  ],
+  "recipe_versions": [
+    {"recipe_id": 1, "product_id": 1, "version_number": 1, "approval_status": "approved", "valid_from": "2026-01-01", "valid_to": "2026-10-30"},
+    {"recipe_id": 2, "product_id": 1, "version_number": 2, "approval_status": "approved", "valid_from": "2026-10-31", "valid_to": null},
+    {"recipe_id": 3, "product_id": 1, "version_number": 3, "approval_status": "draft", "valid_from": "2026-10-31", "valid_to": null}
+  ],
+  "components": [
+    {"component_id": 1, "name": "Пшеница"},
+    {"component_id": 2, "name": "Ячмень"},
+    {"component_id": 3, "name": "Белково-витаминно-минеральный концентрат"}
+  ],
+  "recipe_composition": [
+    {"recipe_id": 1, "component_id": 1, "share_percent": "60"},
+    {"recipe_id": 1, "component_id": 2, "share_percent": "25"},
+    {"recipe_id": 1, "component_id": 3, "share_percent": "15"},
+    {"recipe_id": 2, "component_id": 1, "share_percent": "60"},
+    {"recipe_id": 2, "component_id": 2, "share_percent": "25"},
+    {"recipe_id": 2, "component_id": 3, "share_percent": "15"},
+    {"recipe_id": 3, "component_id": 1, "share_percent": "60"},
+    {"recipe_id": 3, "component_id": 2, "share_percent": "25"},
+    {"recipe_id": 3, "component_id": 3, "share_percent": "15"}
+  ],
+  "requests": [
+    {"request_id": 1, "product_id": 1, "batch_mass_kg": "1000", "due_date": "2026-11-03", "status": "new", "return_reason": null}
+  ],
+  "production_tasks": [],
+  "task_items": [],
+  "stock_lots": [
+    {"stock_lot_id": 101, "component_id": 1, "quantity_kg": "400", "admission_status": "admitted"},
+    {"stock_lot_id": 102, "component_id": 1, "quantity_kg": "300", "admission_status": "admitted"},
+    {"stock_lot_id": 103, "component_id": 1, "quantity_kg": "100", "admission_status": "blocked"},
+    {"stock_lot_id": 201, "component_id": 2, "quantity_kg": "300", "admission_status": "admitted"},
+    {"stock_lot_id": 301, "component_id": 3, "quantity_kg": "150", "admission_status": "admitted"}
+  ],
+  "reservations": [],
+  "reservation_items": []
+}
